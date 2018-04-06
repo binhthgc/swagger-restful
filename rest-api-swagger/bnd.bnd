@@ -1,0 +1,10 @@
+Bundle-Name: rest-api-swagger
+Bundle-SymbolicName: rest.api.swagger
+Bundle-Version: 1.0.0
+-includeresource: \
+@jackson-core.jar;lib:=true,\
+@jackson-datatype-joda.jar;lib:=true,\
+@jackson-jaxrs-base.jar;lib:=true,\
+@jackson-jaxrs-json-provider.jar;lib:=true
+Import-Package: *;resolution:=optional
+Liferay-Configuration-Path: /configuration
